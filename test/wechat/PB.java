@@ -80,7 +80,7 @@ public class PB {
 		
 	    List<NameValuePair> nameValuePairLogin = new ArrayList<NameValuePair>();// 封装Post提交参数
 	    nameValuePairLogin.add(new BasicNameValuePair("loginname", "qq773152"));// 学号
-	    nameValuePairLogin.add(new BasicNameValuePair("password", "2Zhaozibo"));// 密码
+	    nameValuePairLogin.add(new BasicNameValuePair("password", "222"));// 密码
 	    nameValuePairLogin.add(new BasicNameValuePair("_@IMGRC@_", secret));// 验证码
 	    nameValuePairLogin.add(new BasicNameValuePair("method","login"));
 	    nameValuePairLogin.add(new BasicNameValuePair("date", String.valueOf(System.nanoTime())));
